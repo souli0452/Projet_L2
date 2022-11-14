@@ -1,0 +1,44 @@
+===Base de données clubelit_bd
+
+== Structure de la table activite
+
+|------
+|Colonne|Type|Null|Défaut
+|------
+|//**id_activite**//|int(11)|Non|
+|titre_activite|varchar(30)|Non|
+|resum_activite|varchar(50)|Non|
+|date_activite|varchar(10)|Non|
+|lieu_activite|varchar(50)|Non|
+|etat_activite|varchar(50)|Non|
+== Contenu de la table activite
+
+|6|sortie|formation|12/01/2016|banfora|propiste
+|7|sortie|très bon|25/01/2016|cite|concoure
+== Structure de la table cotisation
+
+|------
+|Colonne|Type|Null|Défaut
+|------
+|//**id_cotisation**//|int(11)|Non|
+|montant_cotisation|int(30)|Non|
+|date_cotisation|varchar(30)|Non|
+|id_etudiant|int(11)|Non|
+== Contenu de la table cotisation
+
+|18|0| |18
+|17|0| |17
+== Structure de la table etudiant
+
+|------
+|Colonne|Type|Null|Défaut
+|------
+|//**id_etudiant**//|int(11)|Non|
+|nom_etudiant|varchar(30)|Non|
+|prenom_etudiant|varchar(30)|Non|
+|classe_etudiant|varchar(30)|Non|
+|filiere_etudiant|varchar(30)|Non|
+== Contenu de la table etudiant
+
+|18|youl| |2eme|IT
+|17|samba| |3eme|SEG
